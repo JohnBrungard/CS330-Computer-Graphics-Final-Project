@@ -1,7 +1,7 @@
 # CS330-Final-Project
 
 ***What new design skills has your work on the project helped you to craft?***
-Because of my completion of CS330-Comp Graphics and Visualization, I am now much more knowledgable in the mathematical equations used to construct primitive objects. I have learned how to construct equations for making a symmetrical hexadecagon prism, a ring torus, and a sphere.
+Because of my completion of CS330-Comp Graphics and Visualization, I am now much more knowledgeable in the mathematical equations used to construct primitive objects. I have learned how to construct equations for making a symmetrical hexadecagon prism, a ring torus, and a sphere.
 
 ***What design process did you follow for your project work?***
 I applied the Graphics Pipeline to my OpenGL 3D Scene. Once I created the setup for the scene, I plotted my vertices in a mesh and passed them to the Vertex Shader. I then used an Element Buffer Object to create indices from my coordinates to show Shape Assmebly. I did not apply the Geometry Shader to this scene so continued to the Rasterization Stage to obtain fragments for the Fragment Shader to use. The Fragment Shader then applied the colors and textures involved in my 3D Scene. Finally, I set my correct alpha values and enabled a depth test to blend objects accordingly. 
