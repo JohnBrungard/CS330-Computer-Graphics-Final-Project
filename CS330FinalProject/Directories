@@ -1,1 +1,25 @@
+X86 CONFIGURATION
 
+VC++ DIRECTORIES:
+	INCLUDE DIRECTORIES:
+		..\CS330FinalProject\OpenGL\OpenGL\GLAD
+		..\CS330FinalProject\OpenGL\OpenGL\GLEW\include
+		..\CS330FinalProject\OpenGL\OpenGL\GLFW\include
+		..\CS330FinalProject\OpenGL\OpenGL\glm
+	LIBRARY DIRECTORIES:
+		..\CS330FinalProject\OpenGL\OpenGL\GLEW\lib\Release\Win32
+		..\CS330FinalProject\OpenGL\OpenGL\GLFW\lib-vc2019
+
+C++:
+	GENERAL:
+		..\CS330FinalProject\CS330FinalProject
+		..\CS330FinalProject\includes
+
+LINKER:
+	INPUT:
+		glfw3.lib
+		opengl32.lib
+		glew32.lib
+		glu32.lib 
+
+		
